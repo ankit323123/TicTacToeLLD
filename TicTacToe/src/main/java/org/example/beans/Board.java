@@ -13,6 +13,7 @@ public class Board {
         emptyPlaces=size*size;
     }
     public void display(){
+        System.out.println();
         for(int i=0;i<size;i++){
             for (int j=0;j<size;j++){
                 if(playingPieces[i][j]!=null)
